@@ -1,8 +1,7 @@
 // Dependencies
 // =============================================================
 var express = require("express");
-require('./routes/htmlRoutes')(app);
-require("./routes/apiRoutes")(app);
+
 
 // Sets up the Express App
 // =============================================================
@@ -14,6 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
+
+require('./routes/htmlRoutes')(app);
+require("./routes/apiRoutes")(app);
 
 
 // Starts the server to begin listening
