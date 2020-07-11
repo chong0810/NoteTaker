@@ -46,5 +46,8 @@ Please check the application via website. https://note-taker-chong0810.herokuapp
 
 If you have any questions about the repo, open an issue or contact chong0810 directly hongchangyeon@gmail.com.
 
+<img src="./public/assets/images/noteTaker.JPG" width="70%" alt="Note Picture" >
 
+Application: https://note-taker-chong0810.herokuapp.com/
+GitHub: https://github.com/chong0810/NoteTaker
 
